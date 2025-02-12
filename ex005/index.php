@@ -11,9 +11,9 @@
     <section class="container1">
 
         <div class="container_box">
-            <h2>Apresente-se</h2>
+            <h2>Apresente-se para nós</h2>
             <form action="cad.php" method="get" >
-                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                <input type="text" name="nome" id="idnome" placeholder="Digite o seu nome">
                 <input type="text" name="Snome" id="Snome" placeholder="Digite o seu sobrenome">
                 <input type="submit" value="Enviar" name="Enviar">
             </form>
