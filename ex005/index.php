@@ -8,17 +8,16 @@
 </head>
 <body>
     
-    <section>
-        <form action="cad.php" method="get">
+    <section class="container1">
+
+        <div class="container_box">
             <h2>Apresente-se</h2>
-            <label for="Nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
-
-            <label for="Sobrenome">Sobrenome:</label>
-            <input type="text" name="Snome" id="Snome">
-
-            <input type="submit" value="Enviar">
-        </form>
+            <form action="cad.php" method="get" >
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                <input type="text" name="Snome" id="Snome" placeholder="Digite o seu sobrenome">
+                <input type="submit" value="Enviar" name="Enviar">
+            </form>
+        </div>
     </section>
 </body>
 </html>
