@@ -31,8 +31,9 @@ body{
 }
 
 .container-box > h1{
-    padding: 16px;
-
+    padding-top: 16px;
+    font-size: 32px;
+    text-align: center;
 }
 .container-box  p{
     padding: 16px ;
@@ -42,7 +43,7 @@ body{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    
+    padding-bottom: 16px;
     
 }
 
@@ -87,18 +88,21 @@ body{
     background-color: white;
     border: black 1px solid;
     border-radius: 8px;
-    
+    width: 300px;
 }
 
 .container-box2 > h1{
     border-bottom: black solid 1px;
     padding: 10px;
+
 }
 
 .container-box2 > p{
-    margin: 16px;
+    text-align: start;
+    margin: 10px;
     font-size: 16px;
     font-weight: bold;
+    
 }
 
 .container-box2 > a{
@@ -108,7 +112,12 @@ body{
     color: black;
     border: black solid 1px;
     padding: 8px;
-    margin: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+    
     font-size: 16px;
 }
 .container-box2 > a:hover{

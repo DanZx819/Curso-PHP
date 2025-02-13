@@ -17,6 +17,9 @@
                 <input type="number" name="n1" id="num1" placeholder="Digite o seu número">
                 <input type="submit" value="Calcular" name="btn">
             </form>
+        
+            
+                
 
         </div>
 
