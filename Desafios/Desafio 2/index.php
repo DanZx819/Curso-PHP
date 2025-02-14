@@ -13,6 +13,7 @@
             <p>Ao clicar no botão abaixo será escolhido um número de 0 a 100.</p>
             <form method="get" class="form-box">
                 <button type="submit" name="btn">Gerar</button>
+                <button type="submit" name="rmv">Apagar</button>
             </form>
 
             <?php 
