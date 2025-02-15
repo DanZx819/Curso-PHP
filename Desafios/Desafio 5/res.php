@@ -13,7 +13,7 @@
         <form method="get" class="form-box">
             <h1>Analisador de numeros</h1>
             <?php
-                if(isset($_GET["num"])){
+                if(isset($_GET["num"]) && $_GET["num"] > 0){
                     $num = $_GET["num"];
                     $x = explode('.', (string)$num);
                     $int = $x[0];
