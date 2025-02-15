@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(aqua, aquamarine);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.form-box{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: white;
+    border-radius: 8px;
+    border: black solid 1px;
+}
+.form-box > h1{
+    font-size: 32px;
+    padding: 10px;
+    border-bottom: black solid 1px;
+}
+
+.form-box > input{
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px;
+    height: 24px;
+}
+.form-box > button{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-box >button:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.php-p{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
